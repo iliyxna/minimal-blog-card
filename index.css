@@ -1,0 +1,70 @@
+body {
+    font-family: Sora;
+    background-color: #fafafa;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100%;
+}
+
+.card-container {
+    position: relative;
+    width: 368px;
+    padding: 16px 16px 20px 16px;
+    box-shadow: 
+        30px 20px 100px 0px rgba(17, 23, 41, 0.05),
+        -5px 0px 100px 0px rgba(126, 126, 126, 0.05);
+    border-radius: 10px;
+}
+
+.cactus-img {
+    width: 368px;
+    border-radius: 10px;
+}
+
+.tag {
+    color:#883AE1;
+    background-color: #E6D6FC;
+    display: inline-block;
+    font-size: 10px;
+    font-weight: 700;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    padding: 6px 16px;
+    border-radius: 20px;
+}
+
+.card-title {
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 6px;
+}
+
+
+.description {
+    color: #6C727F;
+    margin-bottom: 20px;
+    font-size: 14px;
+    font-weight: 300;
+    padding-right: 30px;
+}
+
+.linebreak {
+    position: absolute;
+    height: 1px;
+    width: 100%;
+    background-color: #E5EAF0;
+    left:0;
+
+}
+
+.author-name {
+    color: #6C727F;
+    padding-top: 20px;
+    font-size: 12px;
+}
